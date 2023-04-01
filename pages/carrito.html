@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi carrito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilo/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a class="boton" id="amarillo" href="/pages/pasteles_postres.html">Pasteles y postres</a>
+            <a class="boton" id="naranja" href="/pages/ayuda.html">Ayuda</a>
+            <a id="logo" href="/index.html"><img src="/img/Mi proyecto.png" alt="logo" height="120px" width="196px" ></a>
+            <a class="boton" id="rosa" href="/pages/comida_perro.html">Postres para ellos</a>
+            <a class="boton" id="violeta" href="/pages/carrito.html">Mi carrito</a>
+        </div>
+    </header>
+    <nav>
+        <h1 class="produc">Producto/s:</h1>
+    </nav>
+    <main>
+        <div class="productosCompra">
+            <div>
+                <img class="imgCompra" src="/img/torta1.jpg" alt="torta" width="200">
+                <h3 class="textCompra"> Aquí se encuentra la informacion final del producto en cuestion</h3>
+                <form class="cantidad" action="#"> <input type="number" placeholder="Cantidad"> </form>
+                <h3 class="precio">$000</h3>
+            </div>
+            <hr>
+            <div>
+                <img class="imgCompra" src="/img/torta2.jpg" alt="torta" width="200">
+                <h3 class="textCompra"> Aquí se encuentra la informacion final del producto en cuestion</h3>
+                <form class="cantidad" action="#"> <input type="number" placeholder="Cantidad"> </form>
+                <h3 class="precio">$000</h3>
+            </div>
+        </div>
+        <div class="regalo">
+            <form action="#"><input type="radio" name="regalo" value="regalo"> Para regalo</form>
+            <label class="laberViol" for="t">¿Querés que escribamos algo? No completar en caso de NO querer.</label><br>
+            <textarea name="t" cols="30" rows="10"></textarea><br>
+        </div>
+        <img class="perroPagar" src="/img/perro_micarrito.jpg" alt="perro y torta" height="220px">
+        <div class="irPagar">
+            <h3>Sub total: $000</h3>
+        </div>
+        <div>
+            <a class="botonPagar" href="#">Ir a pagar</a>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

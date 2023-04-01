@@ -1,0 +1,238 @@
+html{
+    font-family: 'Manrope', sans-serif;
+    background-image: url(/img/fondoo.jpg);
+}
+.boton{
+    position: relative;
+    top: -85px;
+    text-decoration: none; 
+    padding:39px 75px;
+    font-size: 20px;
+    
+}
+#amarillo{
+    background-color:#ffab03;
+    border:6px solid #ffab03;
+}
+#naranja{
+    background-color: #fc7f03;
+    border: 6px solid #fc7f03;
+}
+#rosa{
+    background-color: #d1024e;
+    border: 6px solid #d1024e;    
+}
+#violeta{
+    background-color: #a6026c;
+    border: 6px solid #a6026c;
+}
+.derecha{text-align: right;}
+
+.videoIndex{
+    position: relative;
+    right: 753px;
+    bottom: 129px;
+}
+
+.h2izq{
+    display: inline-block;
+    background-color: #fc3903;
+    padding: 10px;
+    padding-right: 200px;
+    border: 10px solid #fc3903;
+    margin: 10px;
+    border-end-end-radius: 30px ;
+    border-top-right-radius: 30px ;
+}
+.h2der{
+    display: inline-block;
+    background-color: #fc3903;
+    padding: 10px;
+    padding-left: 200px;
+    border: 10px solid #fc3903;
+    margin: 10px;
+    border-top-left-radius: 30px;
+    border-end-start-radius: 30px;
+}
+
+#img_index{
+    position: relative;
+    left: 917px;
+    bottom: 248px;
+}
+
+.footerIndex{
+    position: relative;
+    top: -186px;
+    background-color: bisque;
+    color:#fc3903 ;
+    padding: 28px;
+    text-align: center;
+}
+.producto1{border: 15px solid #d1024e;}
+.producto2{border: 15px solid #fc7f03;}
+.producto3{border: 15px solid #a6026c;}
+
+.h2ayuda{
+    display: inline-block;
+    background-color: #fc7f03;
+    padding: 7px;
+    padding-right: 420px;
+    border: 10px solid #fc7f03;
+    border-end-end-radius: 30px ;
+    border-top-right-radius: 30px ;
+}
+
+#logo{
+    position: relative;
+    top: -9px;
+}
+#logo1{
+    position: relative;
+    top: 14px;
+}
+.inputNaranja{
+    background-color: #fc7f03;
+    border-color: #fc7f03;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 8px;
+}
+.botonAgr{
+    background-color: #ffab03;
+    border: #ffab03;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 159px;
+    left: 331px;
+    text-decoration: none;
+}
+.avisoPerro{
+    border: 4px dashed #d1024e;
+    text-align: center;
+    color: #d1024e;
+}
+.pPerro1{
+    display: inline-block;
+    border: 8px solid #fc3903;
+    margin: 20px;
+    background-color: #ff4a18;
+}
+.pPerro2{
+    display: inline-block;
+    border: 8px solid #a6026c;
+    margin: 20px;
+    background-color: #b00072;
+}
+.botonPerro{
+    background-color: #d1024e;
+    border: #d1024e;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 22px;
+    text-decoration: none;
+    position: relative;
+    left: 99px;
+    bottom: 31px;
+    color: white;
+}
+.imgPerroT{
+    position: relative;
+    left: 66px;
+    border: 2px solid black;
+}
+.centrar{margin: 44px 100px;}
+
+.textCompra{
+    padding: 10px;
+    position: relative;
+    left: 333px;
+    bottom: 77px;
+    margin: 0%;
+}
+.imgCompra{
+    border: 2px solid black;
+    position: relative;
+    top: 41px;
+    margin: -17px 120px;
+
+}
+.productosCompra{border: 10px double #a6026c;}
+.produc{font-size: 33px;}
+
+.precio{
+    position: relative;
+    left: 1180px;
+    bottom: 119px;
+    font-size: 35px;
+    margin: 0%;
+}
+.cantidad{
+    position: relative;
+    bottom: 81px;
+    left: 945px;
+}
+.laberViol{color: #a6026c;}
+.regalo{
+    text-align: center;
+    display: inline-block;
+    border: 3px solid #a6026c;
+    padding: 10px;
+    border-end-end-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    bottom: 12px;
+}
+.perroPagar{
+    border: 2px solid #a6026c;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.irPagar{
+    text-align: center;
+    display: inline-block;
+    border: 3px solid #a6026c;
+    padding: 10px;
+    border-end-end-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    bottom: 164px;
+    left: 394px;
+    font-size: 20px;
+}
+.botonPagar{
+    background-color: #a6026c;
+    border: #a6026c;
+    padding: 10px 26px;
+    font-size: 26px;
+    border-radius: 17px;
+    position: relative;
+    bottom: 148px;
+    left: 1162px;
+    text-decoration: none;
+    color: white;
+}
+.pFrecuentes{
+    display: inline-block;
+    background-color: #fc7f03;
+    padding: 10px;
+    padding-left: 200px;
+    border: 10px solid #fc7f03;
+    border-top-left-radius: 30px;
+    border-end-start-radius: 30px;
+    position: relative;
+    left: 867px;
+    bottom: 12px;
+}
+.preguntas{
+    position: relative;
+    left: 660px;
+    bottom: 20px;
+}
+.mover{
+    position: relative;
+    bottom:356px;
+}
